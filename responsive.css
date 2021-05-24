@@ -1,0 +1,48 @@
+@media screen and (max-width:800px) {
+    header{
+        height: 7vh;
+    }
+    .note{
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 90vw;
+        margin: 2vh 2vh 2vh 3vh;
+    }
+    #addNote{
+        justify-content: flex-end;
+        margin: 2vh 8vw 0 0 ;
+    }
+    #btn{
+        width: 20vw;
+        height: 4vh;
+        background-color: rgb(245, 173, 40);
+        border-radius: 1vh;
+    }
+    #arrow{
+        width: 8vw;
+        height: 4vh;
+        margin-right: 1vh;
+    }
+    .operation{
+        height: 3vh;
+        padding-right: 1.5vw;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+    }
+    textarea , .main{
+        padding: 5vh 3vh 1.4vh 1.4vh;
+        height: 30vh;
+        width: 90vw;
+    
+    }
+    .edit{
+        width: 9vw;
+        margin-left: 70vw;
+
+    }
+    .delete{
+        width: 9vw;
+        margin-left: 80vw;
+    }
+}

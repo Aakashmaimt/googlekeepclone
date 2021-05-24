@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(241, 237, 237);
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+.stick{
+    margin-right: 1vw;
+}
+header{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 5vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+    background-color: rgb(245, 173, 40);
+}
+#addNote{
+    display: flex;
+    justify-content: flex-end;
+    margin: 2vh 2vw 0 0 ;
+}
+#arrow{
+    background-color: rgb(245, 173, 40);
+    width: 3vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 3vh;
+}
+#btn{
+    width: 5vw;
+    height: 4vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: rgb(245, 173, 40);
+    border-radius: 1vh;
+}
+main{
+    width: 100vw;
+    min-height: 95vh;
+}
+.note{
+    background-color: white;
+    display: inline-block;
+    border-radius: 1vh;
+    overflow: hidden;
+    margin-left: 2vw;
+    height: 30vh;
+    width: 17vw;
+    margin-top: 2vh;
+}
+textarea , .main{
+    width: 17vw;
+    height: 30vh;
+    border: none;
+    outline: none;
+    padding: 3vw 1.8vw 1.4vw 1.4vw;
+    display: flex;
+
+}
+.operation{
+    display: flex;
+    height: 2vh;
+    padding-right: 1.5vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    position: relative;
+
+}
+.edit,.delete{
+    margin-right: 1vw;
+    border: none;
+    outline: none;
+    width: 2.3vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.edit{
+    background-color: rgb(179, 250, 74);
+    position: absolute;
+    margin-left: 9vw;
+}
+.edit:hover{
+    color: rgb(179, 250, 74);
+    background-color: white;
+}
+.delete{
+    margin-left: 12vw;
+    background-color: red;
+}
+.delete:hover{
+    color: red;
+    background-color: white;
+}
+.hidden{
+    display: none;
+}
